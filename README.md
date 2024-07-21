@@ -14,6 +14,21 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### 2D Arena Game
+## Features
+Interactive Game:\
+The frontend is built using React and @react-spring/web for animations. It simulates a bouncing ball in a 2D arena.\
+Text Pane Interaction: The arena includes text panes. When the ball hits a pane, the corresponding text is used to generate an audio response.\
+Dynamic Audio Playback: \
+After the ball stops, the game triggers audio generation and plays the resulting audio.
+## Key Components
+Ball Animation: \
+The ball's motion is handled with physics-based logic, including gravity and collision detection.\
+Text Interaction: \
+Texts are stored in panes at the bottom of the arena. The ball's interaction with these panes triggers audio generation.\
+Audio Playback: \
+Utilizes the HTML <audio> element to play audio files received from the backend.\
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
